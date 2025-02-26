@@ -1,0 +1,103 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn {
+    background: black;
+    a {
+        color: rgb(230, 230, 241); /* Change to any color */
+        text-decoration: none; /* Remove underline */
+    } 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 15px 40px;
+    font-size: 1em;
+    color: #666;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Departments Section */
+.departments {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.departments h2 {
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.departments p {
+    margin-bottom: 15px;
+}
