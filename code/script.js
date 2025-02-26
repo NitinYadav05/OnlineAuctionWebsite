@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // ✅ Navbar Toggle for Mobile
+    // Navbar Toggle for Mobile
     const navToggle = document.querySelector(".nav-toggle");
     const navLinks = document.querySelector(".nav-links");
 
@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // ✅ Static Auction Items
+    //  Static Auction Items
     const itemsContainer = document.querySelector(".item-container");
     const items = [
         { img: "img/watch1.jpg", name: "Vintage Watch", description: "Classic 1950s Rolex" },
-        { img: "img/item2.jpg", name: "Antique Necklace", description: "Gold-plated necklace from the 1800s" },
-        { img: "img/item3.jpg", name: "Rare Coin", description: "Ancient Roman Empire Coin" },
-        { img: "img/item4.jpg", name: "Old Manuscript", description: "Handwritten manuscript from 1600s" },
-        { img: "img/item5.jpg", name: "Classic Fountain Pen", description: "Elegant Montblanc Fountain Pen" }
+        { img: "img/antiquenecklace.jpg", name: "Antique Necklace", description: "Gold-plated necklace from the 1800s" },
+        { img: "img/rarecoin.jpg", name: "Rare Coin", description: "Ancient Roman Empire Coin" },
+        { img: "img/fun&decor.jpg", name: "Funriture and decor art", description: "Handwritten manuscript from 1600s" },
+        { img: "img/clsfunpen.jpg", name: "Classic Fountain Pen", description: "Elegant Montblanc Fountain Pen" }
     ];
 
     if (itemsContainer) {
