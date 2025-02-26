@@ -1,0 +1,128 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #080446;
+    padding: 15px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: antiquewhite;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+#search-bar {
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 180px;
+}
+
+#search-btn {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Login Button */
+.login-btn {
+    background: rgb(148, 115, 115);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    a {
+        color: rgb(230, 230, 241); /* Change to any color */
+        text-decoration: none; /* Remove underline */
+    }
+    
+}
+
+/* Hero Section */
+.hero {
+    background: url('img/header1.webp') no-repeat center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Auction Items */
+.items {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.item-container {
+    display: flex;
+    gap: 20px;
+}
+
+.item-card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-card img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+}
