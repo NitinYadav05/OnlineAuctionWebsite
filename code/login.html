@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Auction Site</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+
+            <!-- Radio buttons for login options -->
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="login-type" checked>
+                    <span>Username</span>
+                </label>
+                <label>
+                    <input type="radio" name="login-type">
+                    <span>Registered Mobile No.</span>
+                </label>
+            </div>
+
+            <!-- Email Input -->
+            <div class="input-group">
+                <label>Email ID</label>
+                <input type="text" placeholder="Enter your email">
+            </div>
+
+            <!-- Password Input -->
+            <div class="input-group">
+                <label>Password</label>
+                <div class="password-wrapper">
+                    <input type="password" placeholder="Enter password">
+                    <span class="toggle-password">👁️</span>
+                </div>
+            </div>
+
+            <!-- Forgot Password -->
+            <a href="#" class="forgot-password">Forgot Password?</a>
+
+            <!-- Login Button -->
+            <button class="login-btn">LOGIN</button>
+
+            <p class="or-text">OR</p>
+
+            <!-- Request OTP -->
+            <button class="otp-btn">REQUEST OTP</button>
+
+            <!-- Create Account -->
+            <a href="#" class="create-account">Create New Account</a>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
